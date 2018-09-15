@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Exploration 1: Materialize UI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        
+    <!-- Materialize CSS Components -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125431312-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-125431312-1');
+    </script>
+    
+    <style>
+        /* Sticky footer */
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+    
+        main {
+            flex: 1 0 auto;
+        }
+    
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Header content -->
+    <header>
+        <nav>
+            <div class="nav-wrapper blue darken-3">
+                <a href="#" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="../">Base</a></li>
+                    <li><a href="../images">Images</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Mobile only nav -->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="../">Base</a></li>
+            <li><a href="../images">Images</a></li>
+        </ul>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col l6 offset-l3 m12 hide-on-med-and-down">
+                    <div class="container">
+                        <h3 class="center">Alex Gompper</h3>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- Main content -->
+    <main>
+        <div class="row">
+            <div class="container">
+            <div class="col l6 offset-l3 m12">
+                <div id="intro" class="card-panel blue pulse">
+                    <span class="white-text">Hello there, welcome to my exploration of Materialize CSS to create a modern all-in-one about me page. In further revisions of this, I will use this template for all of my upcoming projects for CS4830.</span>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="section" id="1">
+            <div class="row container">
+                <div class="col s12 m10 l8 offset-m1 offset-l2 card-panel hoverable">
+                    <h5 class="right-align">Previously</h5>
+                    <p>My affinity for web development started by picking up HTML and CSS books at the library. At that point, viewing a web page's source was enough for me. But this taste grew as I got older and I found myself intrigued with how our Internet is built upon.</p>
+                    <p>This meant I was playing with scripting languages whenever possible. I installed a LAMP server on my depressingly antiquated Gateway tower so that I could simulate client-server interaction.</p>
+                    <p>As I got older I started to build more feature filled websites. I gained experience with CMS' like Wordpress and Joomla, enjoying playing with their source code. These CMS are what introduced me to PHP and server-side programming.</p>
+                    <div class="divider"></div>
+                    <p>Today, I'm experienced in not only web scripting languages, but object-oriented ones as well, such as Java, C, and Python. I still deeply love web development, and now enjoy working with PHP and MySQL for personal projects.</p>
+                    <div class="divider"></div>
+                    <p>When I was 18, I founded my own company, Fused Claptons LLC, in my dorm room at Mizzou (freshman year). I specialized in building incredibly intricate heating elements for e-cigarette vaporizers.</p>
+                    <p>The now-defunct company saw good growth over it's 6 active months. I developed recurring wholesale relationships with vendors overseas while also handling product manufacture, packaging, and shipping distribution from my bedroom.</p>
+                    <p>I also built the e-commerce backend with Wordpress and Shopify, gaining valuable experience not only by uniting the two, but also with credit card merchant processing and payment handling.</p>
+                    <p>For me, this project was great because I culminated almost all of my web design knowledge into something that had more purpose than dummy LAMP servers on my old desktop. I even designed the logo myself using my web forum knowledge and the Adobe Creative Suite.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="section" id="2">
+            <div class="row container">
+                <div class="col s12 m10 l8 offset-m1 offset-l2 card-panel hoverable">
+                    <h5 class="right-align">Currently</h5>
+                    <p>Although my company is no longer active or functional, I occupy my time studying computer science whilst buying, selling, and collecting rare sneakers and clothes. To most it sounds understandably odd, but the hobby is a large part of me now.</p>
+                    <p>My Sophomore year of high school I gained an interest in the skateshop and streetwear brand Supreme. From that interest I made a habit of buying and selling the brand's rare and valued hats. These were bought and sold mainly through eBay, which gave me valuable experience that I use today.</p>
+                    <p>Today, my personal programming projects include applications designed to help me acquire popular sneakers quickly and at low costs. These (unfinished!) projects and tools are available on my Github.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="section" id="3">
+            <div class="row container">
+                <div class="col s12 m10 l8 offset-m1 offset-l2 card-panel hoverable">
+                    <h5 class="right-align">Selling</h5>
+                    <p>My current sneaker and Supreme inventory is listed on a multitude of websites and marketplaces.</p>
+                    <p>I reccomend using the contact form if you are interested in purchasing anything listed. As always, reasonable offers will be considred.</p>
+                    <div class="container center-align">
+                        <div class="row">
+                            <a class="col s4 btn-flat waves-effect waves-blue btn-flat" href="http://www.ebay.com/usr/573supreme">eBay</a>
+                            <a class="col s4 btn-flat waves-effect waves-blue btn-flat" href="https://www.grailed.com/573supreme">Grailed</a>
+                            <a class="col s4 btn-flat waves-effect waves-blue btn-flat" href="#">Goat</a>
+                        </div>
+                        <div class="row">
+                            <a class="col s4 btn-flat waves-effect waves-blue btn-flat" href="https://stockx.com/portfolios/573supreme">StockX</a>
+                            <a class="col s4 btn-flat waves-effect waves-blue btn-flat" href="https://www.reddit.com/user/IAmBigFootAMA/">Reddit</a>
+                            <a class="col s4 btn-flat waves-effect waves-blue btn-flat" href="https://www.instagram.com/573supreme/">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </main>
+    
+    <!-- Footer content -->
+    <footer class="page-footer blue lighten-3">
+        <div class="footer-copyright">
+            <div class="container">
+                <span class="white-text">© 2018 Alexander Gompper</span>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Materialize JS initialization -->
+    <script src="js/materialize.js"></script>
+    <script>
+        M.AutoInit();
+
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            setTimeout(function(){
+                    document.getElementById("intro").classList.remove("pulse");
+                       }, 2000);
+        });
+        
+        
+    </script>
+    
+</body>
+
+</html>
